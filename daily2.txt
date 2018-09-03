@@ -1,1 +1,2 @@
-妈耶终于解决了github 一直到生成在线仓库都很顺利 卡在上传本地仓的时候ssh密钥报错 谷歌一波是ssh文件少了一个known的文件  现在基本解决掉远程问题 室友在打牌我睡不了 继续钻研一波 先commit
+妈耶终于解决了github 一直到生成在线仓库都很顺利 卡在上传本地仓的时候ssh密钥报错 谷歌一波是ssh文件少了一个known的文件  现在基本解决掉远程问题 室友在打牌我睡不了 继续钻研一波 先commit   ep.1
+ 好了我又来了 现在知道如歌从本地仓库git push -u origin master到GitHub 然后从GitHub git clone git@github.com:justabugg/xxxxx.git克隆到本地仓 肚子好饿啊啊啊啊啊啊可是又不能睡觉 上床听会歌 明天七点起床晒被子陪女朋友吃饭然后洗个衣服继续来（希望明天我的显示器可以到 双显实在是太舒服了）     ep.2
