@@ -14,3 +14,8 @@
 删除分支：git branch -d <name>
 
 现在多了用checkout -b或者checkout来切换分支  想起昨天遗留的checkout撤销问题还没解决 早上没啥状态先溜了 分支这一块概念挺好理解的就没跟着做了 下午出去有事 回来再更  ep.3
+
+
+我的屏幕到啦！！！开心 等会找一下git里传图的方法（一直用sublime不懂怎么加图） 然后打算加一个repositories存放短期目标和相应的小代码 目前争取用c和python实现
+https://github.com/justabugg/learn/blob/master/mmexport1536057388231.jpg
+现在我整理一下三个repositories 加个readme 有点样子吧                 ep.4
