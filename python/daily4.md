@@ -1,0 +1,1 @@
+unicode ascll utf-8编码的问题  在内存中使用unicode在硬盘或者传输时utf-8
