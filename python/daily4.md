@@ -15,4 +15,4 @@ UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordin
 '中文'
 用decode由bytes变为str
 len()函数计算的是str的字符数，如果换成bytes，len()函数就计算字节数
-今天全搞字符串格式这些了 明天多看点高级函数了
+今天全搞字符串格式这些了 明天多看点高级函数
