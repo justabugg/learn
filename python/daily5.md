@@ -30,7 +30,8 @@ def person(name, age, *, city, job):
 可怕 吃了鸡洗了澡都好迟了 明天满课没空洗衣服 制图专心速度完成回来洗衣服 现在十二点了已经 室友还在打游戏我就学习一会啦  
 解决了汉诺塔问题 基本理解了递归，尾递归也挺有意思 涉及到stack的问题等我开了数据结构的坑继续细想  
 跑步跑的我真的好饿现在 季老狗买了擀面皮 毛永恒买了方便面 刘老狗买了奶茶分了我一半  
-![images]https://github.com/justabugg/test/blob/master/IMG_20180907_235521.jpg
+![images](https://github.com/justabugg/test/blob/master/IMG_20180907_235521.jpg)  
+希望明天不要腿疼 希望明天学习更多 希望明天可以暴富
 
 
 
