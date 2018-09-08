@@ -47,4 +47,4 @@ z = C
 ['hello', 'world', 'ibm', 'apple']
 ```
 今天满课 晚上没有跑步 没有怎么学习
-！[images](https://wx1.sinaimg.cn/mw1024/923642a7gy1ftgekenti7j20ku0gyn66.jpg)
+![images](https://wx1.sinaimg.cn/mw1024/923642a7gy1ftgekenti7j20ku0gyn66.jpg)
