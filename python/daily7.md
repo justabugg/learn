@@ -79,7 +79,7 @@ True
 ```
 小结
 ===
-基本完全理解 秒杀第一次看的我只会死记ITERABLE,ITERATOR
-![cool](https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E4%BD%A0%E4%BB%96%E5%A8%98%E7%9A%84%E7%9C%9F%E6%98%AF%E4%B8%AA%E5%A4%A9%E6%89%8D&hs=2&pn=0&spn=0&di=10605839420&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&ie=utf-8&oe=utf-8&cl=2&lm=-1&cs=3025198947%2C1851085392&os=1171131460%2C3230516960&simid=0%2C0&adpicid=0&lpn=0&ln=30&fr=ala&fm=&sme=&cg=&bdtype=0&oriquery=%E4%BD%A0%E4%BB%96%E5%A8%98%E7%9A%84%E7%9C%9F%E6%98%AF%E4%B8%AA%E5%A4%A9%E6%89%8D&objurl=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2F61c6122ad797581d936c1526ac239348e6abff90.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bktstktst_z%26e3Bv54AzdH3Fet1j5AzdH3Fwe8b8nnl8b&gsm=0&islist=&querylist=)
+基本完全理解 秒杀第一次看的我只会死记ITERABLE,ITERATOR<br>
+![cool](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536484829430&di=4ace37b3793a84a7f0d6656159f574b6&imgtype=0&src=http%3A%2F%2Fwx1.sinaimg.cn%2Fthumb150%2F006HodI6ly1fejwu9an5qj306404tgm2.jpg)
 
 
