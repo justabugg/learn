@@ -82,4 +82,25 @@ True
 基本完全理解 秒杀第一次看的我只会死记ITERABLE,ITERATOR<br>
 ![cool](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536484829430&di=4ace37b3793a84a7f0d6656159f574b6&imgtype=0&src=http%3A%2F%2Fwx1.sinaimg.cn%2Fthumb150%2F006HodI6ly1fejwu9an5qj306404tgm2.jpg)
 
+函数式编程，高阶函数
+-----
+意思是可以把函数作为参数传入另一个函数<br>
+**python内建的map()函数，传入一个函数一个iterable，输出一个iterator**<br>
+例<br>
+```
+>>> def f(x):
+...     return x * x
+...
+>>> r = map(f, [1, 2, 3, 4, 5, 6, 7, 8, 9])
+>>> list(r)
+[1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
+其中注意 输出的iterator是惰性的，所以用一个list把他计算出来了，我用next试了一下也ok<br>
 
+**内建的reduce函数，接受两个参数再把结果继续和序列中的下个元素做累计计算**
+```
+reduce(f, [x1, x2, x3, x4]) = f(f(f(x1, x2), x3), x4)
+```
+深入的理解写在target里了[target](https://github.com/justabugg/target/blob/master/python/python.md)<br>
+今天有点累了 等会去跑个步 回来的时候要洗洗衣服啥的 如果有空就把target写了 明天再战么么哒<br>
+![image](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536501551550&di=e2559c90a1833099ae73f1e003c8975c&imgtype=0&src=http%3A%2F%2Fimg2.tuicool.com%2F7RnUjez.jpg%2521web)
