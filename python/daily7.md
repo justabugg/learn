@@ -1,0 +1,85 @@
+9.9学习日志
+====
+生成器 generator
+----
+首先要知道产生的原因，因为list占用空间，不可能无限大，所以用生成器并不直接推算出所有内容<br>
+创建方法就是把列表生成式的[]改成()<br>
+```
+>>> L = [x * x for x in range(10)]
+>>> L
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> g = (x * x for x in range(10))
+>>> g
+<generator object <genexpr> at 0x1022ef630>
+```
+理论上要打印generator成员要用next()<br>
+当很多时可用for n in L输出<br>
+改造fib可以推出第二种generator方式**(有yield的generator function)**<br>
+(fib思路写在target)<br>
+**重点是generator的执行流程，在每次调用next()的时候执行，遇到yield语句返回，再次执行时从上次返回的yield语句处继续执行。**<br>
+```
+>>> o = odd()
+>>> next(o)
+step 1
+1
+>>> next(o)
+step 2
+3
+>>> next(o)
+step 3
+5
+>>> next(o)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+```
+这里还有一点 就是怎么调用generator的，先生成了o=odd（）再调用它<br>
+
+迭代器
+----
+这一节内容很可能弄混 注意iterable iterator generator<br>
+**iterable可迭代对象**是可以作用于for循环的对象<br>
+```
+>>> from collections import Iterable
+>>> isinstance([], Iterable)
+True
+>>> isinstance({}, Iterable)
+True
+>>> isinstance('abc', Iterable)
+True
+>>> isinstance((x for x in range(10)), Iterable)
+True
+>>> isinstance(100, Iterable)
+False
+
+```
+如list，dict，generator<br>
+**生成器iterator**不但可以被for循环，还可以被next()调用并返回下一个值的对象<br>
+```
+>>> from collections import Iterator
+>>> isinstance((x for x in range(10)), Iterator)
+True
+>>> isinstance([], Iterator)
+False
+>>> isinstance({}, Iterator)
+False
+>>> isinstance('abc', Iterator)
+False
+
+```
+这里理一下<br>
+**之所以很多可迭代对象例如list，dict，str可以被for调用，却不可以被next()调用并且返回，因为生成器对象是一个数据流，并不能提前知道序列的长度，他的计算是惰性的，需要时才会计算，iterator甚至可以表示无限的数据流，这样的特性是前者不可能拥有的**<br>
+不过这些iterable可以通过一个iter（）函数变成iterator<br>
+```
+>>> isinstance(iter([]), Iterator)
+True
+>>> isinstance(iter('abc'), Iterator)
+True
+
+```
+小结
+===
+基本完全理解 秒杀第一次看的我只会死记ITERABLE,ITERATOR
+![cool](https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E4%BD%A0%E4%BB%96%E5%A8%98%E7%9A%84%E7%9C%9F%E6%98%AF%E4%B8%AA%E5%A4%A9%E6%89%8D&hs=2&pn=0&spn=0&di=10605839420&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&ie=utf-8&oe=utf-8&cl=2&lm=-1&cs=3025198947%2C1851085392&os=1171131460%2C3230516960&simid=0%2C0&adpicid=0&lpn=0&ln=30&fr=ala&fm=&sme=&cg=&bdtype=0&oriquery=%E4%BD%A0%E4%BB%96%E5%A8%98%E7%9A%84%E7%9C%9F%E6%98%AF%E4%B8%AA%E5%A4%A9%E6%89%8D&objurl=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2F61c6122ad797581d936c1526ac239348e6abff90.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bktstktst_z%26e3Bv54AzdH3Fet1j5AzdH3Fwe8b8nnl8b&gsm=0&islist=&querylist=)
+
+
