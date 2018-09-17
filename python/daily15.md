@@ -20,7 +20,6 @@ def bar():
     else:
         pass
 ```
-<br>
 #### 1.2现在用try..except..finally..的错误处理机制
 ```
 try:
