@@ -112,7 +112,7 @@ END                                               #但是继续执行下一步
 所以理论上我们可以自己定义一个类来抛出自己的错误<br>
 ```
 #err_raise.py
-def myerr(ValueError):                           #先定义一个错误class，注意父类
+class myerr(ValueError):                           #先定义一个错误class，注意父类
   pass
 
 def foo(n):
